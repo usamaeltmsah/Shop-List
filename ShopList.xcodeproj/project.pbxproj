@@ -13,6 +13,8 @@
 		046B1D7C2550A54C00C188BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D7A2550A54C00C188BA /* Main.storyboard */; };
 		046B1D7E2550A55000C188BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D7D2550A55000C188BA /* Assets.xcassets */; };
 		046B1D812550A55000C188BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D7F2550A55000C188BA /* LaunchScreen.storyboard */; };
+		046B1D8A2550AA1900C188BA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D892550AA1900C188BA /* CustomTableViewCell.xib */; };
+		046B1D8D2550AD1E00C188BA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		046B1D7D2550A55000C188BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046B1D802550A55000C188BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046B1D822550A55000C188BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B1D892550AA1900C188BA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				046B1D7D2550A55000C188BA /* Assets.xcassets */,
 				046B1D7F2550A55000C188BA /* LaunchScreen.storyboard */,
 				046B1D822550A55000C188BA /* Info.plist */,
+				046B1D892550AA1900C188BA /* CustomTableViewCell.xib */,
+				046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */,
 			);
 			path = ShopList;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				046B1D812550A55000C188BA /* LaunchScreen.storyboard in Resources */,
 				046B1D7E2550A55000C188BA /* Assets.xcassets in Resources */,
+				046B1D8A2550AA1900C188BA /* CustomTableViewCell.xib in Resources */,
 				046B1D7C2550A54C00C188BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				046B1D792550A54C00C188BA /* ViewController.swift in Sources */,
 				046B1D752550A54C00C188BA /* AppDelegate.swift in Sources */,
+				046B1D8D2550AD1E00C188BA /* CustomTableViewCell.swift in Sources */,
 				046B1D772550A54C00C188BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
