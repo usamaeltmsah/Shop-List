@@ -15,6 +15,7 @@
 		046B1D812550A55000C188BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D7F2550A55000C188BA /* LaunchScreen.storyboard */; };
 		046B1D8A2550AA1900C188BA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046B1D892550AA1900C188BA /* CustomTableViewCell.xib */; };
 		046B1D8D2550AD1E00C188BA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */; };
+		046B1D982550B56000C188BA /* itemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1D972550B56000C188BA /* itemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		046B1D822550A55000C188BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046B1D892550AA1900C188BA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		046B1D972550B56000C188BA /* itemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				046B1D822550A55000C188BA /* Info.plist */,
 				046B1D892550AA1900C188BA /* CustomTableViewCell.xib */,
 				046B1D8C2550AD1E00C188BA /* CustomTableViewCell.swift */,
+				046B1D972550B56000C188BA /* itemViewController.swift */,
 			);
 			path = ShopList;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046B1D982550B56000C188BA /* itemViewController.swift in Sources */,
 				046B1D792550A54C00C188BA /* ViewController.swift in Sources */,
 				046B1D752550A54C00C188BA /* AppDelegate.swift in Sources */,
 				046B1D8D2550AD1E00C188BA /* CustomTableViewCell.swift in Sources */,
