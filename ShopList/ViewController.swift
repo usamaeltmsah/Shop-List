@@ -13,9 +13,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell: CustomTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "custom")! as! CustomTableViewCell
         
-        cell.textLabel!.text = "Hello World"
+        cell.itemName.text = "Banana"
+        cell.itemCount.text = "Count: 7"
+        cell.itemImage.image = UIImage(named: "banana")
         
         return cell
     }
@@ -25,7 +27,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.tableView.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "custom")
     }
 
 

@@ -23,9 +23,9 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-HP-JRg">
-                        <rect key="frame" x="76" y="8" width="318" height="30"/>
+                        <rect key="frame" x="76" y="8" width="318" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="aOR-k3-2dN"/>
+                            <constraint firstAttribute="height" constant="24" id="aOR-k3-2dN"/>
                             <constraint firstAttribute="width" constant="318" id="mXJ-9i-3Ty"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -33,10 +33,10 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count: 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpH-Hm-xa6">
-                        <rect key="frame" x="76" y="46" width="318" height="23"/>
+                        <rect key="frame" x="76" y="50" width="318" height="19"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="318" id="6bH-7M-qvV"/>
-                            <constraint firstAttribute="height" constant="23" id="qlu-Sf-oS9"/>
+                            <constraint firstAttribute="height" constant="19" id="qlu-Sf-oS9"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
