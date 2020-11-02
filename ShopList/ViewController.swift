@@ -8,16 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let itemsNames = ["Apple", "Banana", "Orange"]
+    let itemsCounts = [3, 5, 9]
+    let itemsImages = ["apple", "banana", "orange"]
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: CustomTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "custom")! as! CustomTableViewCell
-        
-        cell.itemName.text = "Banana"
-        cell.itemCount.text = "Count: 7"
-        cell.itemImage.image = UIImage(named: "banana")
+        let curInd = indexPath.row
+        cell.itemName.text = itemsNames[curInd]
+        cell.itemCount.text = "Count: \(itemsCounts[curInd])"
+        cell.itemImage.image = UIImage(named: itemsImages[curInd])
         
         return cell
     }
